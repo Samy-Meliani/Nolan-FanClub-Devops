@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nolan-container
-        image: nolan-app:v1
+        image: pasnassim/nolan-app:latest
         imagePullPolicy: Never # Obligatoire pour Minikube
         ports:
         - containerPort: 3000
