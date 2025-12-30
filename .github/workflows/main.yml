@@ -2,7 +2,7 @@ name: CI to Docker Hub
 
 on:
   push:
-    branches: [ "main" ] # Se déclenche sur chaque push vers main
+    branches: [ "main" ] 
 
 jobs:
   build-and-push:
@@ -20,6 +20,6 @@ jobs:
       - name: Build and push image
         uses: docker/build-push-action@v4
         with:
-          context: . # Puisque tout est à la racine, on utilise juste le point
+          context: . 
           push: true
           tags: pasnassim/nolan-app:latest

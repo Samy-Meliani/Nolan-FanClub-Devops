@@ -2,6 +2,8 @@
 
 Ce projet est une application web interactive ("Fan Club de Nolan Toussaint") qui démontre une maîtrise complète de la chaîne DevOps, du développement local au déploiement orchestré dans un cluster Kubernetes avec un pipeline CI/CD automatisé.
 
+A l'intérieur du répertoire Captures se trouvent toutes les images en guise de preuve du bon fonctionnement de l'automatisation 
+
 ## 🏗️ Architecture du Projet
 
 L'application repose sur une architecture microservices conteneurisée :
@@ -24,6 +26,7 @@ Le projet utilise **GitHub Actions** pour automatiser le cycle de vie de l'appli
 
 ### 2. Lancement de l'infrastructure
 Appliquer les configurations dans l'ordre suivant pour assurer la connectivité :
+
 
 ```bash
 # Lancer la base de données
